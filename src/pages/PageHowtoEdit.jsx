@@ -9,7 +9,6 @@ import BreakingNews from '../breakingnews/BreakingNews';
 import CyclopediaTicker from '../cyclopedia/CyclopediaTicker';
 import CombinedCreateFP from '../quicks/CombinedCreateFP';
 
-// export default function PageCyclopedia() {
 export default function PageHowtoEdit() {
 
   const { howto_id } = useParams();

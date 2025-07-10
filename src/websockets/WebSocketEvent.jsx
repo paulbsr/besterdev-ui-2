@@ -30,26 +30,6 @@ const WebSocketEvent = () => {
     []
   );
 
-  // return (
-  //   <div style={{ fontFamily: "Segoe UI", fontSize: "10pt", color: "rgb(3, 25, 48)", fontStyle: "italic" }}>
-  //     {(() => {
-  //       const parts = params.split('|').map(p => p.trim());
-  //       const time = parts.find(p => p.startsWith('Time:'))?.replace('Time:', '').trim();
-  //       const name = parts.find(p => p.startsWith('Name:'))?.replace('Name:', '').trim();
-  //       const desc = parts.find(p => p.startsWith('Desc:'))?.replace('Desc:', '').trim();
-
-  //       return (
-  //         <>
-  //           Event @ {time} -- <strong>{name}: </strong> {desc}
-  //         </>
-  //       );
-  //     }
-  //     )
-  //     ()
-  //     }
-  //   </div>
-  // );
-
   return (
   <>
     {(() => {

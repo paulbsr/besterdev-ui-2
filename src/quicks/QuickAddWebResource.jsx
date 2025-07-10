@@ -9,22 +9,10 @@ export default function QuickAddWebResource(props) {
     const [website_desc, setWebsite_desc] = useState('');
     const [website_url, setWebsite_url] = useState('');
     const [website_cat, setWebsite_cat] = useState('');
-    // const [websitedata, setWebsitedata] = useState(null);
     const [checkForRecords, setCheckForRecords] = useState(true);
     const { websiterootdata, loading, error } = useWebsiteApi(); //gebruik van die nuwe useContect :-)
     if (loading) return <div>Loading...</div>;
     if (error) return <div>Error: {error.message}</div>;
-
-    // useEffect(() => {
-    //     axios('https://besterdev-api-13a0246c9cf2.herokuapp.com/api/v1/websites')
-    //         .then((response) => {
-    //             const sortedwebsitedata = response.data.sort((b, a) => b.website_name.localeCompare(a.website_name));
-    //             setWebsitedata(sortedwebsitedata);
-    //         })
-    //         .catch((e) => console.error(e));
-    // },
-    //     [checkForRecords]
-    // )
 
     const handleSubmit = async (event) => {
         event.preventDefault();

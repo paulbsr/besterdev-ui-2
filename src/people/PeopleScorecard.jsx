@@ -1,15 +1,9 @@
 import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import '../Fonts.css'
-import * as React from "react";
-import ImageAvatar_Simon from "../graphix/Avatars/ImageAvatar_Simon";
 import ImageAvatar_Conor from "../graphix/Avatars/ImageAvatar_Conor";
-import ImageAvatar_Brian from "../graphix/Avatars/ImageAvatar_Brian";
-import ImageAvatar_Bren from "../graphix/Avatars/ImageAvatar_Bren";
-import ImageAvatar_Keex from "../graphix/Avatars/ImageAvatar_Keex";
 import ImageAvatar_Monique from "../graphix/Avatars/ImageAvatar_Monique";
 import ImageAvatar_Leo from "../graphix/Avatars/ImageAvatar_Leo";
-import ImageAvatar_Saoirse from "../graphix/Avatars/ImageAvatar_Saoirse";
 import ImageAvatar_Dwayne from "../graphix/Avatars/ImageAvatar_Dwayne";
 import ImageAvatar_Shikha from "../graphix/Avatars/ImageAvatar_Shikha";
 import ImageAvatar_Felipe from "../graphix/Avatars/ImageAvatar_Felipe";
@@ -28,7 +22,6 @@ import DialogActions from "@mui/material/DialogActions";
 import Button from "@mui/material/Button";
 import { BsPeopleFill } from "react-icons/bs";
 import GradientLineRusty from "../gradientlines/GradientLineRusty";
-// import { Tooltip } from '@mui/material';
 import { Tooltip } from 'react-tooltip'
 import 'react-tooltip/dist/react-tooltip.css'
 
@@ -120,17 +113,12 @@ export default function PeopleScorecard() {
                                 <tr>
                                     <th style={{ width: '1px' }}></th>
                                     <th style={{ width: '400px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Tasks</th>
-                                    {/* <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Bren Keenan</th> */}
-                                    {/* <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Brian O'Rourke</th> */}
                                     <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Conor Lynch</th>
                                     <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Claire Farrell</th>
                                     <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Felipe Mantov</th>
-                                    {/* <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Keex Nenyiaba</th> */}
                                     <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Leo Pinto</th>
                                     <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Monique Borje</th>
-                                    {/* <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Saoirse Seeber</th> */}
                                     <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Shikha Seth</th>
-                                    {/* <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Simon Dowling</th> */}
                                     <th style={{ width: '10px', borderRadius: '4px' }} className="Font-Verdana-Small-Rusty" align='center'>Thiago Cunha</th>
                                 </tr>
                             </thead>
@@ -149,17 +137,12 @@ export default function PeopleScorecard() {
                                             </table>
                                         </div>
                                     </td>
-                                    {/* <td><ImageAvatar_Bren /></td> */}
-                                    {/* <td><ImageAvatar_Brian /></td> */}
                                     <td><ImageAvatar_Conor /></td>
                                     <td><ImageAvatar_Dwayne /></td>
                                     <td><ImageAvatar_Felipe /></td>
-                                    {/* <td><ImageAvatar_Keex /></td> */}
                                     <td><ImageAvatar_Leo /></td>
                                     <td><ImageAvatar_Monique /></td>
-                                    {/* <td><ImageAvatar_Saoirse /></td> */}
                                     <td><ImageAvatar_Shikha /></td>
-                                    {/* <td><ImageAvatar_Simon /></td> */}
                                     <td><ImageAvatar_Thiago /></td>
                                 </tr>
 

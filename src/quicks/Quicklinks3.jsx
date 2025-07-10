@@ -6,10 +6,8 @@ import Box from '@mui/material/Box';
 import './Fonts.css'
 import {styled} from "@mui/material/styles";
 import { useUserContext } from '../UserContext';
-import GradientLineThin from './GradientLineThin';
 import QuickAddWebResource from './QuickAddWebResource';
 import QuickAddCyclopedia from './QuickAddCyclopedia';
-import DBSearchComponent from '../DBSearchComponent';
 import DBSearchComponentBanner from '../DBSearchComponentBanner';
 
 

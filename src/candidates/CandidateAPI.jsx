@@ -1,7 +1,3 @@
-// http://www.google.com/search?q=+"java+developer"+"ireland" -intitle:"profiles" -inurl:"dir/+"+site:ie.linkedin.com/in/+OR+site:ie.linkedin.com/pub/
-// http://www.google.com/search?q=+"python"+"south+africa" -intitle:"profiles" -inurl:"dir/+"+site:za.linkedin.com/in/+OR+site:za.linkedin.com/pub/
-// http://www.google.com/search?q=+"$(skill)"+"$(country)" -intitle:"profiles" -inurl:"dir/+"+site:ie.linkedin.com/in/+OR+site:ie.linkedin.com/pub/
-
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../Fonts.css';
@@ -11,7 +7,6 @@ import { Tooltip } from 'react-tooltip';
 import ColouredBox from '../ColouredBox';
 import spacer from '../graphix/besterdev_spacer_white.png';
 import GradientLineLinkedIn from '../gradientlines/GradientLineLinkedIn';
-
 
 export default function CandidateAPI() {
 
